@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <style>
+        body {
+            height: 100vh;
+            background-image: url(./K1_coral_cover_hero.jpg);
+            background-size: cover;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+        h2 {
+            font-size: 36px;
+        }
+
+        .white {
+            color: white;
+        }
+
+        .main {
+            height: 75%;
+            width: 40%;
+            background: rgba(0, 230, 211, 0.5);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input {
+            margin: 10px;
+            width: 80%;
+            height: 25px;
+            font-size: 24px;
+            padding-left: 25px;
+        }
+
+        button {
+            background-color: aqua;
+            width: 50%;
+            height: 10%;
+            border: none;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        
+        .icon {
+            background-size: 18px;
+            background-repeat: no-repeat;
+            background-position: 1%;
+        }
+
+        button:hover {
+            background-color: aquamarine;
+        }
+
+        button:active {
+            background-color: blue;
+        }
+
+        @media(max-width: 680px) {
+            .main {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+
+    </script>
+    <h1 class="white">Newsletter Signup Form</h1>
+    <div class="main">
+       <h2 class="white">Sign Up</h2>
+       <form>
+        <input class="icon" style="background-image: url(./user.png);"  placeholder="First Name" type="text">
+        <input class="icon" style="background-image: url(./user.png);" placeholder="Last Name" type="text">
+        <input class="icon" style="background-image: url(./phone-call.png);" placeholder="Phone Number" type="text">
+        <input class="icon" style="background-image: url(./email.png);" placeholder="Email" type="text">
+        <input class="icon" style="background-image: url(./lock.png);" placeholder="Password" type="text">
+        <input class="icon" style="background-image: url(./padlock-unlock.png);" placeholder="Confirm Password" type="text">
+       </form>
+       <a href="./confirmation.html"><button class="white">Sign Up</button></a>
+    </div>
+</body>
+</html>
